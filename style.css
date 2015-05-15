@@ -16,13 +16,13 @@ body {
 	height: 100%;
 }
 
-#graph_buttons {
-	padding: 50px 30px;
-	background-color: lightgrey;
+#buttons_row {
+	padding: 5px;
+	background-color: #dddddd;
 }
 
 #bottom_row {
-	height: 75%;
+	height: 80%;
 	padding-bottom: 5px;
 }
 
