@@ -32,14 +32,48 @@ body {
 	margin-left: 15px;
 	padding-right: 5px;
 	padding-left: 5px;
-	height: 100%;
+	height: 103%;
 	border-style: outset;
 }
 
-#history {
+#description {
 	margin: 5px;
 	padding-right: 5px;
 	padding-left: 5px;
-	height: 100%;
+	height: 103%;
 	border-style: outset;
+}
+
+.bar {
+  fill: steelblue;
+}
+
+.bar:hover {
+  fill: brown;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
+}
+
+h1{
+    font-family: sans-serif;
+    text-align: center;
 }

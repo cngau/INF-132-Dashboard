@@ -1,0 +1,11 @@
+Timestamp,time band,Unix timestamp,weekday/weedend ,activity_level, ,step_count,lat,lon,place name,place category,short_name,num_of_apps,media usage,light,num of photos,sound setting
+30-Apr-12,1,1E+12,0,0,{standing still=1},0,33.643627,-117.84131,UCI IEEE Lab | DAT Lab | Java City Kiosk,education | education | food,Lab | Lab | CafÃ©,1,0,14.5,0,0
+29-Apr-12,1,1E+12,0,0,{standing still=1},100,33.643642,-117.84133,UCI IEEE Lab | DAT Lab | Java City Kiosk,education | education | food,Lab | Lab | CafÃ©,1,0,70.11627907,0,0
+28-Apr-12,1,1E+12,0,1,{tiliting=2| Unknown=4},78,33.64365,-117.841324,UCI IEEE Lab | DAT Lab | Java City Kiosk,education | education | food,Lab | Lab | CafÃ©,3,0,126.5255172,0,0
+27-Apr-12,2,1E+12,0,1.333333373,{standing still=1| tiliting=2| walking=3},299,33.643974,-117.84151,ICS2 136 | Integrated Nanosystems Research Facility (INRF) | Engineering Hall (EH),education | education | education,Classroom | Science | Engineering,1,0,0.322580645,0,0
+26-Apr-12,2,1E+12,0,2,{walking=5},214,33.646088,-117.84356,AGS Coffee Cart | Subway | BC's Cavern,food | food | education,Food Truck | Sandwiches | Cafeteria,1,0,0.272151899,0,0
+25-Apr-12,2,1E+12,0,0,{standing still=1},0,33.643635,-117.841324,UCI IEEE Lab | DAT Lab | Java City Kiosk,education | education | food,Lab | Lab | CafÃ©,1,0,99.66666667,0,0
+24-Apr-12,2,1E+12,0,0,{standing still=5},0,33.643646,-117.841324,UCI IEEE Lab | DAT Lab | Java City Kiosk,education | education | food,Lab | Lab | CafÃ©,1,0,104.5652174,0,0
+23-Apr-12,2,1E+12,0,1.333333373,{tiliting=2| Unknown=2| walking=2},260,33.64798,-117.84137,Fluff Ice | UCI Vendor Fair | Flagpoles @ UCI,food | shops | parks_outdoors,Food Truck | Flea Market | Plaza,5,0,45.73357664,0,0
+22-Apr-12,2,1E+12,0,1.777777791,{in vehicle=2| tiliting=4| walking=1| Unknown=2},80,33.64819,-117.841484,Fluff Ice | UCI Vendor Fair | The Hillside Study Lounge,food | shops | education,Food Truck | Flea Market | Cafeteria,3,0,17.48319328,0,0
+21-Apr-12,2,1E+12,0,0.428571433,{standing still=4| tiliting=2| Unknown=1},0,33.648186,-117.841515,Fluff Ice | UCI Vendor Fair | The Hillside Study Lounge,food | shops | education,Food Truck | Flea Market | Cafeteria,2,0,39.73267327,0,0
