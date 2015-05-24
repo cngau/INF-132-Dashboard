@@ -14,18 +14,26 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
   </head>
   <body>
+	<script src="http://labratrevenge.com/d3-tip/javascripts/d3.tip.v0.6.3.js"></script>
 	<div class="container-fluid">
 		<div class="row">
-			<div id="date" class="col-xs-6">Change_date_button</div>
+			<div id="date" class="col-xs-6">
+				<button type="button" class="icon_button"><a href="#"><img src="../INF-132-Dashboard/img/Date_and_time.png" class="icons"></a></button>
+			</div>
 			<div id="login" class="col-xs-6">Login</div>
 		</div>
-		</br>
-		<div id="buttons_row"class="row">
+		<div id="buttons_row" class="row">
 			<div class="col-xs-1 col-xs-offset-1">
 				<button type="button" class="icon_button" id="bar_button" onClick="draw_bar_graph()"><a href="#" title="Bar Graph"><img src="../INF-132-Dashboard/img/bar.png" class="icons"></a></button>
 			</div>
 			<div class="col-xs-1 col-xs-offset-1">
-				<button type="button" class="icon_button" id="pie_button" ><a href="#" title="Aster Plot"><img src="../INF-132-Dashboard/img/pie.png" class="icons"></a></button>
+				<button type="button" class="icon_button" id="aster_button" onClick="draw_aster_plot()"><a href="#" title="Aster Plot"><img src="../INF-132-Dashboard/img/aster.png" class="icons"></a></button>
+			</div>
+			<div class="col-xs-1 col-xs-offset-1">
+				<button type="button" class="icon_button" id="placeholder1" ><a href="#" title="placeholder"><img src="../INF-132-Dashboard/img/aster.png" class="icons"></a></button>
+			</div>
+			<div class="col-xs-1 col-xs-offset-1">
+				<button type="button" class="icon_button" id="placeholder2" ><a href="#" title="placeholder"><img src="../INF-132-Dashboard/img/aster.png" class="icons"></a></button>
 			</div>
 			<div class="col-xs-1 col-xs-offset-1">
 				<button type="button" class="icon_button" id="bar_button" onClick="draw_line_chart()"><a href="#" title="Line Chart"><img src="../INF-132-Dashboard/img/line.png" class="icons"></a></button>

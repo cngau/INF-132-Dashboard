@@ -1,0 +1,9 @@
+color,order,label,id,weight,score,
+#9E0041,1,DBH 2065,Lab,2,100
+#F47245,2,UCI IEEE Lab,Lab,1,74
+#FAE38C,3,Engineering Computing Trailer,Administrative Building,3,32
+#C7E89E,4,DBH 1600,Classroom,2,28
+#6CC4A4,5,Java City Kiosk,Cafe,2,25
+#4D9DB4,6,Berkeley Pool,Beach Bar,4,16
+#4776B4,7,Verano Place,Residence Hall,1,14
+#5E4EA1,8,DAT Lab,Lab,1,14
