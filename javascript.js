@@ -17,6 +17,11 @@
 
 }); */
 
+function erase_canvas (){
+	$("#chart").empty();
+	empty_tri_graph();
+}
+
 function draw_bar_graph (){
 	$("#chart").empty();
 	empty_tri_graph();
