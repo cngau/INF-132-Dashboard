@@ -86,8 +86,10 @@ function draw_bar_graph (){
 		  .attr("width", x.rangeBand())
 		  .attr("y", function(d) { return y(d.step_count); })
 		  .attr("height", function(d) { return height - y(d.step_count); });
-
-});};
+	
+	});
+	write_description("bar");
+};
 
 function type(d) {
   d.step_count = +d.step_count;
@@ -197,6 +199,7 @@ function draw_aster_plot() {
 		.text(Math.round(score));
 
 	});
+	write_description("aster");
 }
 
 function draw_line_chart() {
@@ -270,11 +273,15 @@ function draw_line_chart() {
 		  .datum(data)
 		  .attr("class", "line")
 		  .attr("d", line);
-});};
+	});
+	write_description("line");
+};
 
 function draw_tri_graph() {
 	$("#chart").empty();
 	empty_tri_graph();
+	
+	write_description("tri");
 	
 	var pieDiv = document.createElement('div');
 	pieDiv.id = 'pieChart';
@@ -983,12 +990,35 @@ function draw_tri_graph() {
 		   .selectAll("title")
 		   .text(function(d) { return d.category + ": " + formatAsInteger(d.measure); })	 
 		   ;  
-
-}}
+}};
+	
 
 function empty_tri_graph() {
 	$("#pieChart").empty();
 	$("#barChart").empty();
 	$("#lineChart").empty();
+	$("#description").empty();
 	
-}
+};
+
+function write_description(chart_type) {
+	$("#description").empty();
+	var description = document.createElement('p');
+	
+	if (chart_type=="bar") {
+		var node = document.createTextNode("Y-axis displays step count for every location along the X-axis. Hover over each bar to see location name.");
+	}
+	else if (chart_type=="aster") {
+		var node = document.createTextNode("Each slice of this aster plot shows light level and activity level for various locations visited. Arc size is determined by amount of activity done. Colored radius of each slice is determined by light level normalized to the highest reading (max 100). Hover over each slice to see location name.");
+	}
+	else if (chart_type=="line") {
+		var node = document.createTextNode("Y-axis displays step count for dates along the X-axis.")
+	}
+	else if (chart_type=="tri") {
+		var node = document.createTextNode("Hover over and click each slice to get a comprehensive step count breakdown by week and by day.")
+	}
+	
+	description.appendChild(node);
+	document.getElementById('description').appendChild(description);
+	
+};
